@@ -1,0 +1,4 @@
+outboard_repository=Isaiasg/zmk-config-skeletyl-amoeba
+outboard_ref=master
+outboard_from=config/boards/shields/skeletyl_v2_elitec_amoeba
+outboard_to=boards/shields/skeletyl_v2_elitec_amoeba
