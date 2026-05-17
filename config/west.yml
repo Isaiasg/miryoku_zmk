@@ -1,0 +1,16 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: Isaiasg
+      url-base: https://github.com/Isaiasg
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    - name: zmk-config-skeletyl-amoeba
+      remote: Isaiasg
+      revision: dongle
+  self:
+    path: config
